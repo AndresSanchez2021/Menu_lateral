@@ -1,5 +1,8 @@
 let btnToggle =document.getElementById("menu-toggle-btn");
  btnToggle.addEventListener("click",()=>activarSideBar());
+let btnClose =document.getElementById("close-menu");
+btnClose.addEventListener("click",()=>activarSideBar());
+
 
 
 function activarSideBar(){
