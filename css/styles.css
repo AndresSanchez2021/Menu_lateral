@@ -134,3 +134,9 @@ body{
     padding:10px;
     color:white;
 }
+
+@media screen and (max-width: 780px){
+    #side-bar {
+        min-width: 80vw;
+    }
+}
