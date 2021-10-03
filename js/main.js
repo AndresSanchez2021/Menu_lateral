@@ -27,7 +27,8 @@ let close_arrow=document.getElementsByClassName("close-sub-menu");
 
 //Funciones
 function activarSideBar(p){
-    document.getElementById("side-bar").classList.toggle("active");
+    console.log("hola");
+    document.getElementsByClassName("side-bar")[0].classList.toggle("active");
     document.getElementsByClassName("side-bar-container")[0].classList.toggle("active");
     if(p)
         document.getElementById(actual).classList.toggle("active"); 
